@@ -1,0 +1,31 @@
+{
+  "development": {
+    "username": "greenbuildingusr",
+    "password": "greenbuildingusr",
+    "database": "greenbuildingusr",
+    "host": "greenbuildingusr.cnmcf3jgnh2u.us-west-1.rds.amazonaws.com",
+    "dialect": "mysql",
+    "port": 3306,
+    "dialectOptions": {
+      "ssl": "Amazon RDS"
+    }
+  },
+  "test": {
+    "username": "root",
+    "password": "password",
+    "database": "dashboard",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "greenbuildingusr",
+    "password": "greenbuildingusr",
+    "database": "greenbuildingusr",
+    "host": "greenbuildingusr.cnmcf3jgnh2u.us-west-1.rds.amazonaws.com",
+    "dialect": "mysql",
+    "port": 3306,
+    "dialectOptions": {
+        "ssl": "Amazon RDS"
+    }
+  }
+}

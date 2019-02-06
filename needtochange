@@ -1,0 +1,20 @@
+1.addClusterModal.js : 33 
+    return axios.post(`${INFRA_MANAGER_HOST}/clusters/add`
+    API "/clusters/";
+
+
+
+
+2. Map.js line 48
+return axios.get(`${INFRA_MANAGER_HOST}/buildings/search/location`, {
+            params: {
+              city: this.state.city,
+              state: this.state.state,
+              zipcode: this.state.zipcode,
+            }
+-----------------------three together or (2 or 1)???
+${infrastructure_manager_host}/buildings/search/geocode?city=<city>&state=<state>
+${infrastructure_manager_host}/buildings/search/geocode?zipcode=<zipcode>
+
+
+
